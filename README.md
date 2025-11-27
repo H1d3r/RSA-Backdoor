@@ -104,8 +104,6 @@ The twist is that the attacker can decrypt the message using the victim's public
 
 If you want the full details of this attack check the two links in the preamble. High-level overview of this attack is the following : 
 
-Here is a concise bullet‑point synthesis of the described SETUP (kleptographic) attack on RSA key generation:
-
 #### **Normal RSA Key Generation (Baseline)**
 
 * Generate two large random primes **p** and **q** (≈1024 bits each for a 2048‑bit key).
