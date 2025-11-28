@@ -21,10 +21,10 @@ openssl genrsa -out attacker_priv.pem 2048
 openssl rsa -in attacker_priv.pem -pubout -out attacker_pub.pem
 
 # generate backdoored keys
-./generator -pk attacker_pub.pem -sk attacker_priv.pem -o out
+./generator -pk attacker_pub.pem -o out
 
 # output
-[*] Loading attacker's keys...
+[*] Loading attacker's key...
 [+] Attacker's key loaded (N bit length: 2048)
 [*] Using bitsize: 512
 
